@@ -8,9 +8,9 @@ def join_ingredients(src)
   # As such, there should be a new String for each inner array, or pair
   # new array
   row = 0
-  column = 0
   output = []
   while row < src.count do
+    column = 0
     while column < src[row].count do
       puts src[row][column]
       column += 1
