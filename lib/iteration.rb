@@ -9,7 +9,7 @@ def join_ingredients(src)
   # new array
   row = 0
   column = 0
-  
+  output = []
 
 end
 
