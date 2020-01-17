@@ -10,12 +10,7 @@ def join_ingredients(src)
   row = 0
   output = []
   while row < src.count do
-    column = 0
-    while column < src[row].count do
-      
-
-      column += 1
-    end
+    output.push("I love #{src[row][0]} and #{src[row][1]} on my pizza")
     row += 1
   end
 
