@@ -32,6 +32,7 @@ def find_greater_pair(src)
     else
       output.push(src[index][1])
     end
+    index += 1
   end
 
 end
