@@ -52,7 +52,7 @@ def total_even_pairs(src)
     sum = 0
     if src[index][0] % 2 == 0 and src[index][1] % 2 == 0
       sum = src[index][0] + src[index][1]
-      output +=
+      output += sum
     end
     index += 1
   end
