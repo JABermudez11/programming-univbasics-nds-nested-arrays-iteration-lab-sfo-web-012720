@@ -15,6 +15,7 @@ def join_ingredients(src)
       puts src[row][column]
       column ++
     end
+    row ++
   end
 
 end
