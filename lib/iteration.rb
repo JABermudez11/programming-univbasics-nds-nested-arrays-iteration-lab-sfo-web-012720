@@ -10,8 +10,8 @@ def join_ingredients(src)
   row = 0
   column = 0
   output = []
-  while row < src.size do
-    while column < src[row].size do
+  while row < src.count do
+    while column < src[row].count do
       puts src[row][column]
       column ++
     end
