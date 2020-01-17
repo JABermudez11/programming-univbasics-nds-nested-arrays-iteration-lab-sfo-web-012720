@@ -14,6 +14,8 @@ def join_ingredients(src)
     row += 1
   end
 
+  output
+
 end
 
 def find_greater_pair(src)
