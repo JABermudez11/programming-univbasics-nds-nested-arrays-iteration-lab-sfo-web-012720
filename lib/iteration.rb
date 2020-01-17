@@ -12,7 +12,8 @@ def join_ingredients(src)
   while row < src.count do
     column = 0
     while column < src[row].count do
-      puts src[row][column]
+      
+
       column += 1
     end
     row += 1
