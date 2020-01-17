@@ -14,7 +14,7 @@ def join_ingredients(src)
     row += 1
   end
 
-  output
+  return output
 
 end
 
